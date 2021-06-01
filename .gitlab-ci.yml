@@ -1,0 +1,61 @@
+# Copyright (c) 2021 Gonzalo Müller Bravo
+image: node:current
+
+cache:
+  key: "${CI_COMMIT_SHA}"
+  untracked: true
+  paths:
+    - node_modules/
+
+stages:
+  - inception
+  - assess
+  - assemble
+  - site
+
+create-cache:
+  stage: inception
+  script:
+    - npm install
+    - yarn install
+  cache:
+    key: "${CI_COMMIT_SHA}"
+    policy: push
+    untracked: true
+    paths:
+      - node_modules/
+
+assess-common:
+  stage: assess
+  script:
+    - yarn run lint.any
+  cache:
+    key: "${CI_COMMIT_SHA}"
+    policy: pull
+    untracked: true
+    paths:
+      - node_modules/
+
+doc:
+  stage: assemble
+  script:
+    - yarn run doc
+  cache:
+    key: "${CI_COMMIT_SHA}"
+    policy: pull
+    untracked: true
+    paths:
+      - node_modules/
+  artifacts:
+    paths:
+    - docs/
+
+pages:
+  stage: site
+  script:
+    - mv docs public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master

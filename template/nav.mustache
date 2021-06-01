@@ -1,0 +1,14 @@
+{{#navigations}}
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">{{title}}</h4>
+    <ul>
+        {{#items}}
+        <li {{#isActive}}class="slds-is-active"{{/isActive}} title="{{text}}">
+            <a href="{{{href}}}" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                {{text}}
+            </a>
+        </li>
+        {{/items}}
+    </ul>
+</div>
+{{/navigations}}

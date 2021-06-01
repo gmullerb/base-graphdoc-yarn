@@ -1,0 +1,70 @@
+{
+  "name": "base-graphdoc-yarn",
+  "description": "Base Code for GraphQL documentation using graphdoc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Gonzalo Müller Bravo",
+  "homepage": "https://graphdoc-plugins.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmullerb/base-graphdoc-yarn"
+  },
+  "bugs": {
+    "url": "https://github.com/gmullerb/base-graphdoc-yarn/issues"
+  },
+  "keywords": [
+    "base-graphdoc-yarn",
+    "graphql",
+    "graphql-js",
+    "documentation",
+    "comments",
+    "graphdoc",
+    "graphdoc-plugin",
+    "erase",
+    "filtered",
+    "plugin",
+    "schema",
+    "config",
+    "markdown",
+    "guide",
+    "syntax",
+    "comment",
+    "operation",
+    "doc",
+    "parser",
+    "generator",
+    "swagger",
+    "jsdoc"
+  ],
+  "scripts": {
+    "lint.any": "echo ==== Lint Any ====  && eslint --config .eslintrc-any.json  \"**/[\\.a-zA-Z]*.+(js|json|yml|sh|txt|md)\" \"**/.+(|gitignore|npmignore)\" --ignore-pattern \"build\"",
+    "predoc": "echo ==== Build Documentation ====",
+    "doc": "graphdoc -p graphdoc/../../graphdoc-plugin-erase -p graphdoc/../../graphdoc-plugin-operations -p graphdoc/../../graphdoc-plugin-schema -p graphdoc/../../graphdoc-plugin-flexible -s ./src/schema.graphql -t ./template -o ./docs -f -v"
+  },
+  "devDependencies": {
+    "@2fd/graphdoc": "2.4.0",
+    "any-eslint-parser": "^1.0.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-base-style-config": "^2.8.0",
+    "eslint-plugin-regex": "^1.7.0",
+    "graphdoc-plugin-erase" :"1.0.1",
+    "graphdoc-plugin-flexible": "1.0.2",
+    "graphdoc-plugin-operations": "2.0.0",
+    "graphdoc-plugin-schema": "2.0.0",
+    "yarn": "^1.22.10"
+  },
+  "resolutions": {
+    "@2fd/graphdoc/**/graphql": "15.5.0"
+  },
+  "graphdoc-plugin-flexible": {
+    "navigation.schema": {
+      "disable": true
+    },
+    "document.schema": {
+      "disable": true
+    },
+    "document.require": {
+      "disable": true
+    }
+  }
+}

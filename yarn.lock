@@ -581,25 +581,25 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.1.9:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.6.tgz#ff040b2b0853b23c3d31027523706f1885d76bee"
   integrity sha512-nTnJ528pbqxYanhpDYsi4Rd8MAeaBA67+RZ10CM1m3bTAVFEDcd5AuA4a6W5YkGZ1iNXHzZz8T6TBKLeBuNriQ==
 
-graphdoc-plugin-erase@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/graphdoc-plugin-erase/-/graphdoc-plugin-erase-1.0.0.tgz#62279d6d943a4d04e2047b2fffaae542f84e5bac"
-  integrity sha512-oiMQAvVZH30woCOnyHJ1z0EfbSa8zQtjqaRatQywKpSYqgeT4yQC6ngT0qDkb7B0NOA6RCCDmrZARo4JoUmuwg==
+graphdoc-plugin-erase@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/graphdoc-plugin-erase/-/graphdoc-plugin-erase-1.1.0.tgz#fc57345cef5e7817859c9f963733b4500c245c46"
+  integrity sha512-PeUexLA+Kih6SLysJiqEWmhfgqBIM4jBCBf47eQbzGzFa4obPFbCic86O10ZxSmXH9qKTDqNCTb0k5YrgeG/eg==
 
-graphdoc-plugin-flexible@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/graphdoc-plugin-flexible/-/graphdoc-plugin-flexible-1.0.0.tgz#6e6f866aa4bdf45e18368eefcd64c2852f830fd2"
-  integrity sha512-rbcCzMZxkHOluopwCcRM4ld8FxcX3WdNWMR/rVcaAl29hPW1QIO6bPOusVuJq0jFMdBBPZkWCYgdVaVumoB7Iw==
+graphdoc-plugin-flexible@1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/graphdoc-plugin-flexible/-/graphdoc-plugin-flexible-1.0.2.tgz#75af6cd5d279b256de1fa6577543e241f03fc396"
+  integrity sha512-ZDqkHlzeaQETAvovZ3tn5OURKesWazBXw/ZiUKA5QlHeveyVwUc060w0cRKuqLJgdZ1veH/Rg9DoARShxVKsQQ==
 
-graphdoc-plugin-operations@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/graphdoc-plugin-operations/-/graphdoc-plugin-operations-1.0.0.tgz#81e7a85c920fca247414768411dca52957154aec"
-  integrity sha512-blLTmnJ6jpQ41zMW+wT556rfH9vpLq3BXc2hhBsOHAsLVdCtfqRE10n9/cJX3FqKcfFyL681PTNiKNB3cZCFCQ==
+graphdoc-plugin-operations@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/graphdoc-plugin-operations/-/graphdoc-plugin-operations-2.1.0.tgz#f01627fa9a30c1481e59aa10882ba987ef2d58d4"
+  integrity sha512-1JWOUBuNQWKUimzwNsZA3Yi87au55+Gcm8foVsybJAq3D6GI5aagpdFEXvw85CgCCLbFv+PnJhv6Vi9AvzYGMA==
 
-graphdoc-plugin-schema@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/graphdoc-plugin-schema/-/graphdoc-plugin-schema-1.0.0.tgz#30449a98c74a39fdfbad66e9ce548b3ac8fb1254"
-  integrity sha512-9wCY6Y1f33RiS0NqJ+p56vVDdMkDF1MWeRguUTedovH59VUTODrnIzLA5Pw1f2Jwohmg2i42UDnMiAC4GfOEKw==
+graphdoc-plugin-schema@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/graphdoc-plugin-schema/-/graphdoc-plugin-schema-2.0.0.tgz#41b2e6047bfc741cf55770bb1459477d4a7ff6eb"
+  integrity sha512-pzJVU32BTWmTjpD5ZlKD6GOc76YAjpeuXGuxz2q/uivaF4JVTOWt3J2vrBdA91j7SOpB3LA+RrO5pQSzxYSVEw==
 
 graphql@15.5.0, graphql@^0.7.0:
   version "15.5.0"

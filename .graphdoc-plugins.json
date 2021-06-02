@@ -1,0 +1,19 @@
+{
+  "graphdoc-plugin-flexible": {
+    "navigation.schema": {
+      "disable": true
+    },
+    "document.schema": {
+      "disable": true
+    },
+    "document.require": {
+      "disable": true
+    }
+  },
+  "graphdoc-plugin-operations": {
+    "eraseByDescriptionRegex": "@RemoveFromDocumentation"
+  },
+  "graphdoc-plugin-erase": {
+    "eraseByDescriptionRegex": "@RemoveFromDocumentation"
+  }
+}

@@ -75,7 +75,7 @@ type PokemonDimension {
   maximum: String
 }
 
-""" Represents a Pokémon's requirement to evolve """
+""" @RemoveFromDocumentation Represents a Pokémon's requirement to evolve """
 type PokemonEvolutionRequirement {
   """ The amount of candy to evolve """
   amount: Int
@@ -91,5 +91,6 @@ type Query {
     """ How many to get """
     first: Int!
   ): [Pokemon]
+  """ @RemoveFromDocumentation """
   pokemon(id: String, name: String): Pokemon
 }

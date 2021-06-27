@@ -1,4 +1,4 @@
-    <section class="title">
+<section class="title">
     <div class="container slds-grid">
         <div>
         <button class="slds-button js-toggle-navigation less-than-medium">
@@ -16,7 +16,10 @@
         </div>
     </div>
     <div class="container">
-        {{#type}}<p class="slds-text-title--caps slds-text-color--weak">{{type.kind}}</p>{{/type}}
+        {{#type}}
+          {{^type.operationName}}<p class="slds-text-title--caps slds-text-color--weak">{{type.kind}}</p>{{/type.operationName}}
+          {{#type.operationName}}<p class="slds-text-title--caps slds-text-color--weak">Operation</p>{{/type.operationName}}
+        {{/type}}
         <h1 class="slds-text-heading--large">{{title}}</h1>
         <div class="slds-text-body--regular">{{{description}}}</div>
     </div>

@@ -591,10 +591,10 @@ graphdoc-plugin-flexible@1.0.2:
   resolved "https://registry.yarnpkg.com/graphdoc-plugin-flexible/-/graphdoc-plugin-flexible-1.0.2.tgz#75af6cd5d279b256de1fa6577543e241f03fc396"
   integrity sha512-ZDqkHlzeaQETAvovZ3tn5OURKesWazBXw/ZiUKA5QlHeveyVwUc060w0cRKuqLJgdZ1veH/Rg9DoARShxVKsQQ==
 
-graphdoc-plugin-operations@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/graphdoc-plugin-operations/-/graphdoc-plugin-operations-2.1.0.tgz#f01627fa9a30c1481e59aa10882ba987ef2d58d4"
-  integrity sha512-1JWOUBuNQWKUimzwNsZA3Yi87au55+Gcm8foVsybJAq3D6GI5aagpdFEXvw85CgCCLbFv+PnJhv6Vi9AvzYGMA==
+graphdoc-plugin-operations@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/graphdoc-plugin-operations/-/graphdoc-plugin-operations-2.2.0.tgz#bceed9a76da0191d3b11bb4f6cc7fba5bcbce503"
+  integrity sha512-rwbqg7IduZJP1EXzb2NmuRmiXfS6l+cqqoAnE2uVLMtkixeGeAFPyfu8u77ybLVjqU2k7Jmk73F3N3B3d3St+A==
 
 graphdoc-plugin-schema@2.0.0:
   version "2.0.0"

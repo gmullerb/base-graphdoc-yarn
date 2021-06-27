@@ -49,7 +49,7 @@
     "eslint-plugin-regex": "^1.7.0",
     "graphdoc-plugin-erase" :"1.1.0",
     "graphdoc-plugin-flexible": "1.0.2",
-    "graphdoc-plugin-operations": "2.1.0",
+    "graphdoc-plugin-operations": "2.2.0",
     "graphdoc-plugin-schema": "2.0.0",
     "yarn": "^1.22.10"
   },
